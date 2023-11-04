@@ -1,0 +1,8 @@
+<ng-container *ngFor="let pokemon of pokeList">
+  <div [ngClass]="'card type--' + pokemon.pokemon.types[0].type.name">
+    <p>
+      {{ pokemon.pokemon.name }}
+    </p>
+    <img [src]="pokemon.pokemon.sprites.front_shiny" alt="" />
+  </div>
+</ng-container>
