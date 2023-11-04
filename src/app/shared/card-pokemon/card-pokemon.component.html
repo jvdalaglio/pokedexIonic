@@ -1,8 +1,12 @@
-<ng-container *ngFor="let pokemon of pokeList">
+<ng-container *ngFor="let pokemon of pokeList, let i = index">
   <div [ngClass]="'card type--' + pokemon.pokemon.types[0].type.name">
-    <p>
-      {{ pokemon.pokemon.name }}
-    </p>
+    <div class="info">
+      <p>Nº {{formatarNumero(pokemon.pokemon.id)}}</p>
+      <p class="name">
+        {{ upperCaseFisrtLetter(pokemon.pokemon.name) }}
+      </p>
+      <app-badge [pokeType]="pokemon.pokemon.types"></app-badge>
+    </div>
     <img [src]="pokemon.pokemon.sprites.front_shiny" alt="" />
   </div>
 </ng-container>

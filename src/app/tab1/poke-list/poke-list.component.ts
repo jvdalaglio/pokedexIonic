@@ -22,16 +22,15 @@ export class PokeListComponent implements OnInit {
 
   async isLoading(isLoading: boolean) {
     const loading = await this.loadingCtrl.create({
-      message: '...',
       spinner: 'circles',
-      duration: isLoading ? 500 : 0
+      duration: isLoading ? 500 : 0,
+      animated: true
     });
     if(isLoading) {
       loading.present();
       this.loading = true
     } else {
       this.loading = false
-      loading.dismiss('close');
     }
   }
 

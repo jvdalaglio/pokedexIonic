@@ -1,0 +1,94 @@
+@import '../../../theme/main.scss';
+
+.types {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
+}
+
+.badge {
+  border-radius: 50px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  width: 80px;
+  margin-top: 3px;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+}
+
+.type--water {
+  background-color: $water-element;
+}
+
+.type--dragon {
+  background-color: $dragon-element
+}
+
+.type--electric {
+  background-color: $electric-element
+}
+
+.type--fairy {
+  background-color: $fairy-element
+}
+
+.type--ghost {
+  background-color: $ghost-element
+}
+
+.type--fire {
+  background-color: $fire-element
+}
+
+.type--ice {
+  background-color: $ice-element
+}
+
+.type--grass {
+  background-color: $grass-element
+}
+
+.type--bug {
+  background-color: $bug-element
+}
+
+.type--fighting {
+  background-color: $fighting-element
+}
+
+.type--normal {
+  background-color: $normal-element
+}
+
+.type--shadow {
+  background-color: $shadow-element
+}
+
+.type--steel {
+  background-color: $steel-element
+}
+
+.type--rock {
+  background-color: $rock-element
+}
+
+.type--psychic {
+  background-color: $psychic-element
+}
+
+.type--ground {
+  background-color: $ground-element
+}
+
+.type--poison {
+  background-color: $poison-element
+}
+
+.type--flying {
+  background-color: $fliyng-element
+}

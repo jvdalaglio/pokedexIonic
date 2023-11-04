@@ -7,51 +7,81 @@
   margin-bottom: 5%;
   border-radius: 15px;
 }
-.type--water{
-  background-color: #EBF1F8;
+
+.name {
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-
-.type--bug{
-  background-color: #F1F6E8;
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 5%;
+  width: 55%;
+  padding: 5%;
 }
 
-.type--grass {
-
-}
-
-.type--fire {
-
-}
-
-.type--normal {
-  background-color: #F1F2F3;
-}
-
-.type--electric {
-
-}
-
-.type--poison {
-
-}
-
-.type--ground {
-
-}
-
-.type--rock {
-
+.type--water {
+  background-color: #ebf1f8;
 }
 
 .type--bug {
+  background-color: #f1f6e8;
+}
 
+.type--grass {
+  background-color: #edf6ec;
+}
+
+.type--fire {
+  background-color: #fcf3eb;
+}
+
+.type--normal {
+  background-color: #f1f2f3;
+}
+
+.type--electric {
+  background-color: #fbf8e9;
+}
+
+.type--poison {
+  background-color: #f5edf8;
+}
+
+.type--ground {
+  background-color: #f9efea;
+}
+
+.type--rock {
+  background-color: #f7f5f1;
+}
+
+.type--fighting {
+  background-color: #f8e9ee;
+}
+
+.type--fairy {
+  background-color: #fbf1fa;
+}
+
+.type--bug {
+  background-color: #f1f6e8;
 }
 
 .type--ghost {
-
+  background-color: #ebedf4;
 }
 
 .type--steel {
+  background-color: #ecf1f3;
+}
 
+.type--psychic {
+  background-color: #fceeef;
 }
