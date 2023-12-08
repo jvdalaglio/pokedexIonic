@@ -1,5 +1,6 @@
 <div class="types">
   <div *ngFor="let type of pokeType" class="badge type--{{ type.type.name }}">
+    <img [src]="'../../../assets/badge-types/' + type.type.name + '.svg'" alt="">
     <p>{{ type.type.name }}</p>
   </div>
 </div>

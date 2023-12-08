@@ -1,5 +1,10 @@
 @import '../../../theme/main.scss';
 
+@mixin bg {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .card {
   display: flex;
   justify-content: space-between;
@@ -33,6 +38,13 @@
   row-gap: 5%;
   width: 55%;
   padding: 5%;
+}
+
+.image-container {
+  border-radius: 12px;
+  width: 37%;
+  display: flex;
+  justify-content: center;
 }
 
 .type--water {
@@ -79,10 +91,6 @@
   background-color: #fbf1fa;
 }
 
-.type--bug {
-  background-color: #f1f6e8;
-}
-
 .type--ghost {
   background-color: #ebedf4;
 }
@@ -93,4 +101,118 @@
 
 .type--psychic {
   background-color: #fceeef;
+}
+
+.type--ice {
+  background-color: #F1FBF9;
+}
+
+.type--flying {
+  background-color: #F1F4FA;
+}
+
+.type--dragon {
+  background-color: #E4EEF6;
+}
+
+.bg-type--water {
+  background-color: #5090D6 !important;
+  background-image: url('../../../assets/outline-types/water.svg');
+  @include bg();
+}
+
+.bg-type--bug {
+  background-color: #91C12F !important;
+  background-image: url('../../../assets/outline-types/bug.svg');
+  @include bg();
+}
+
+.bg-type--grass {
+  background-color: #63BC5A !important;
+  background-image: url('../../../assets/outline-types/grass.svg');
+  @include bg();
+}
+
+.bg-type--fire {
+  background-color: #FF9D55 !important;
+  background-image: url('../../../assets/outline-types/fire.svg');
+  @include bg();
+}
+
+.bg-type--normal {
+  background-color: #919AA2 !important;
+  background-image: url('../../../assets/outline-types/normal.svg');
+  @include bg();
+}
+
+.bg-type--electric {
+  background-color: #F4D23C !important;
+  background-image: url('../../../assets/outline-types/electric.svg');
+  @include bg();
+}
+
+.bg-type--poison {
+  background-color: #B567CE !important;
+  background-image: url('../../../assets/outline-types/poison.svg');
+  @include bg();
+}
+
+.bg-type--ground {
+  background-color: #D97845 !important;
+  background-image: url('../../../assets/outline-types/ground.svg');
+  @include bg();
+}
+
+.bg-type--rock {
+  background-color: #C5B78C !important;
+  background-image: url('../../../assets/outline-types/rock.svg');
+  @include bg();
+}
+
+.bg-type--fighting {
+  background-color: #CE416B !important;
+  background-image: url('../../../assets/outline-types/fighting.svg');
+  @include bg();
+}
+
+.bg-type--fairy {
+  background-color: #EC8FE6 !important;
+  background-image: url('../../../assets/outline-types/fairy.svg');
+  @include bg();
+}
+
+.bg-type--ghost {
+  background-color: #5269AD !important;
+  background-image: url('../../../assets/outline-types/ghost.svg');
+  @include bg();
+}
+
+.bg-type--steel {
+  background-color: #5A8EA2 !important;
+  background-image: url('../../../assets/outline-types/steel.svg');
+  @include bg();
+}
+
+.bg-type--psychic {
+  background-color: #FA7179 !important;
+  background-image: url('../../../assets/outline-types/psychic.svg');
+  @include bg();
+}
+
+.bg-type--ice {
+  background-color: #73CEC0 !important;
+  background-image: url('../../../assets/outline-types/psychic.svg');
+  @include bg();
+}
+
+.bg-type--flying {
+  background-color: #89AAE3 !important;
+  background-image: url('../../../assets/outline-types/psychic.svg');
+  @include bg();
+}
+
+.type--dragon {
+  background-color: #0B6DC3 !important;
+  background-image: url('../../../assets/outline-types/dragon.svg');
+  @include bg();
 }
